@@ -51,11 +51,10 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	
 }
 
-html{
-	border: solid pink;
+html body{
+	background: lightblue;
 	height: 100%;
 	padding: 0.5%;
 	line-height: 1.5;
@@ -73,42 +72,52 @@ img{
 .Intro{
 	text-align: center;
 	border: solid grey;
+	margin-bottom: 3vh;
 }
 
 .Header-Nav{
+	background: black;
 	text-align: center;
 	border: solid black;
-
 a{
+	color: white;
 	text-decoration: none;
 }	
 }
 .Mid-Box{
 	display:flex;
 	border: solid gold;
-
-
+	background: lightgreen;
+	height: 15vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
 .Mid-Content{
 	width: 50%;
 	border: solid purple;
-.Mid-Stuff{
-	border: solid blue;
 }
 }
+ul{
+	list-style-type: circle;
 }
-
 
 .Last-Content{
+	background: aquamarine;
 	width: 100%;
 	border: solid brown;
 
-
 th, td {
+	text-align: center;
+	height: 10vh;
 	border: 1px solid black;
+	padding: 1%;
 }
 }
 footer{
 	background: black;
 	color: white;
 	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 99%;
+	padding:2%;
 }
