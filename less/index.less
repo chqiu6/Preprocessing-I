@@ -49,7 +49,11 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+@textcenter: center;
+@font-bold: bold;
+@font-size: 1.3em;
 * {
+	
 	box-sizing: border-box;
 }
 
@@ -60,25 +64,26 @@ html body{
 	line-height: 1.5;
 }
 header{
-	border: solid green;
-	text-align: center;
+	text-align: @textcenter;
 	font-weight: bold;
 
 img{	
-	border: solid purple;
 	width: 10%;
 }
 }
 .Intro{
-	text-align: center;
-	border: solid grey;
+	font-size: @font-size;
+	font-weight: @font-bold;
+	text-align: @textcenter;
 	margin-bottom: 3vh;
+	
 }
 
 .Header-Nav{
 	background: black;
-	text-align: center;
-	border: solid black;
+	font-size: @font-size;
+	font-weight: @font-bold;
+	text-align: @textcenter;
 a{
 	color: white;
 	text-decoration: none;
@@ -86,27 +91,35 @@ a{
 }
 .Mid-Box{
 	display:flex;
-	border: solid gold;
-	background: lightgreen;
 	height: 15vh;
 	margin-top: 3vh;
 	margin-bottom: 3vh;
 .Mid-Content{
+	font-size: @font-size;
 	width: 50%;
-	border: solid purple;
+	h2{
+		font-weight: @font-bold;
+	}
 }
 }
+.Mid-Stuff{
+	font-size: @font-size;
+	font-weight: @font-bold;
+
 ul{
 	list-style-type: circle;
 }
-
+}
+#LastH2{
+	font-size: @font-size;
+	font-weight: @font-bold;
+}
 .Last-Content{
-	background: aquamarine;
+	font-size: @font-size;
+	font-weight: @font-bold;
 	width: 100%;
-	border: solid brown;
-
 th, td {
-	text-align: center;
+	text-align: @textcenter;
 	height: 10vh;
 	border: 1px solid black;
 	padding: 1%;
@@ -115,9 +128,11 @@ th, td {
 footer{
 	background: black;
 	color: white;
-	text-align: center;
+	font-size: @font-size;
+	text-align: @textcenter;
+	font-weight: @font-bold;
 	position: fixed;
 	bottom: 0;
 	width: 99%;
-	padding:2%;
+	padding:1.2%;
 }

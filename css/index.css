@@ -137,23 +137,23 @@ html body {
   line-height: 1.5;
 }
 header {
-  border: solid green;
   text-align: center;
   font-weight: bold;
 }
 header img {
-  border: solid purple;
   width: 10%;
 }
 .Intro {
+  font-size: 1.3em;
+  font-weight: bold;
   text-align: center;
-  border: solid grey;
   margin-bottom: 3vh;
 }
 .Header-Nav {
   background: black;
+  font-size: 1.3em;
+  font-weight: bold;
   text-align: center;
-  border: solid black;
 }
 .Header-Nav a {
   color: white;
@@ -161,23 +161,32 @@ header img {
 }
 .Mid-Box {
   display: flex;
-  border: solid gold;
-  background: lightgreen;
   height: 15vh;
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
 .Mid-Box .Mid-Content {
+  font-size: 1.3em;
   width: 50%;
-  border: solid purple;
 }
-ul {
+.Mid-Box .Mid-Content h2 {
+  font-weight: bold;
+}
+.Mid-Stuff {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.Mid-Stuff ul {
   list-style-type: circle;
 }
+#LastH2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
 .Last-Content {
-  background: aquamarine;
+  font-size: 1.3em;
+  font-weight: bold;
   width: 100%;
-  border: solid brown;
 }
 .Last-Content th,
 .Last-Content td {
@@ -189,9 +198,11 @@ ul {
 footer {
   background: black;
   color: white;
+  font-size: 1.3em;
   text-align: center;
+  font-weight: bold;
   position: fixed;
   bottom: 0;
   width: 99%;
-  padding: 2%;
+  padding: 1.2%;
 }
